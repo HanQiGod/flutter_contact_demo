@@ -17,22 +17,8 @@
 - 写入一个示例联系人到系统通讯录
 - 权限拒绝与永久拒绝提示
 
-## 运行方式
 
-```bash
-cd flutter_contact_demo
-flutter pub get
-flutter run
-```
+### 文章地址[https://mp.weixin.qq.com/s/SOPVYdGFhMa01vgTFsB8aA]
 
-## 测试建议
-
-- 尽量用 Android 或 iPhone 真机测试
-- 优先覆盖首次授权、拒绝、永久拒绝三种权限路径
-- “添加示例联系人”会真实写入系统通讯录，只建议在测试机演示
-
-## 依赖
-
-- `flutter_native_contact_picker_plus: ^1.3.1`
-- `contactos: ^2.0.1`
-- `permission_handler: ^12.0.1`
+### 展示图
+![展示图](assets/images/flutter_contact_demo.gif)
